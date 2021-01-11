@@ -2,7 +2,7 @@ const str = 'animation';
 const strArry = str.split('');
 
 function tag(accu, curr) {
-    console.log(accu, curr)
+    // console.log(accu);
     return `${accu}<${curr}>`;
 }
 
