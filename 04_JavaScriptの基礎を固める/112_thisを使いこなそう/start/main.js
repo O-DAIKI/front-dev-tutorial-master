@@ -7,11 +7,9 @@ document.addEventListener('DOMContentLoaded', function () {
     btn.addEventListener('click', ta.animate.bind(ta));
 });
 
-console.log(this);
 
 class TextAnimation {
     constructor(el) {
-        console.log(this)
         this.el = document.querySelector(el);
         this.chars = this.el.innerHTML.trim().split("");
         this.el.innerHTML = this._splitText();
