@@ -6,9 +6,15 @@ const obj = {
         const fn = function() {
             console.log(this);
         };
-        window.setTimeout(fn);  
+        window.setTimeout(fn);
     }
 }
+
+// const window = {
+//     setTimeout: function(fn) {
+//         fn();
+//     }
+// }
 
 class MyObj {
     constructor() {
