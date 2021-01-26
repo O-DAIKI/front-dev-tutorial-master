@@ -6,7 +6,7 @@ const obj = {
         const fn = function() {
             console.log(this);
         };
-        window.setTimeout(fn);
+        window.setTimeout(fn);  
     }
 }
 
@@ -15,6 +15,7 @@ const obj = {
 //         fn();
 //     }
 // }
+
 
 class MyObj {
     constructor() {
