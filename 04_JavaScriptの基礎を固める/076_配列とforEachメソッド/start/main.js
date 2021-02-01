@@ -11,4 +11,5 @@ for(let i = 0; i < arry.length; i++) {
     console.log(v);
 }
 
+
 // forEachメソッドでは第一引数に配列の値,第二引数に添字,第三引数に配列が渡ってくる。
