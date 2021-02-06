@@ -11,6 +11,4 @@ const obj = {
     }
 }
 
-
-
 obj.printFullName();
