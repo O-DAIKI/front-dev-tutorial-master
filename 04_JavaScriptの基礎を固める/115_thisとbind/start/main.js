@@ -12,5 +12,4 @@ const obj = {
 }
 
 
-
 obj.printFullName();
